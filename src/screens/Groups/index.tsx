@@ -1,8 +1,4 @@
-import { Button } from '@components/Button'
-import { GroupCard } from '@components/GroupCard'
-import { Header } from '@components/Header'
-import { Highlight } from '@components/Highlight'
-import { ListEmpty } from '@components/ListEmpty'
+import { Button, GroupCard, Header, Highlight, ListEmpty } from '@components/index'
 import { useState } from 'react'
 import { FlatList } from 'react-native'
 
