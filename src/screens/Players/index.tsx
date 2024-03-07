@@ -1,4 +1,4 @@
-import { Header, Highlight } from '@components/index'
+import { ButtonIcon, Header, Highlight } from '@components/index'
 
 import { Container } from './styles'
 
@@ -8,6 +8,8 @@ export function Players() {
       <Header showBackButton />
 
       <Highlight title="Nova turma" subTitle="Adicione a galera e separe os times" />
+
+      <ButtonIcon />
     </Container>
   )
 }

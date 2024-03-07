@@ -1,6 +1,7 @@
-import { Button, GroupCard, Header, Highlight, ListEmpty } from '@components/index'
 import { useState } from 'react'
 import { FlatList } from 'react-native'
+
+import { Button, GroupCard, Header, Highlight, ListEmpty } from '@components/index'
 
 import { Container } from './styles'
 
