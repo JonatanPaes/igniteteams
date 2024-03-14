@@ -58,3 +58,4 @@ npm run start
 - [Styled Components](https://styled-components.com/)
 - [Expo Font](https://docs.expo.dev/versions/latest/sdk/font/)
 - [Phosphor React Native](https://github.com/duongdev/phosphor-react-native)
+- [React Navigation](https://reactnavigation.org/)
