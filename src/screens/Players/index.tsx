@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { FlatList } from 'react-native'
+import { useRoute } from '@react-navigation/native'
 
 import {
   Button,
@@ -14,15 +15,22 @@ import {
 
 import { Container, Form, HeaderList, NumbersOfPlayers } from './styles'
 
+type RouteParams = {
+  group: string
+}
+
 export function Players() {
   const [team, setTeam] = useState('Time A')
   const [players, setPlayers] = useState(['Jonatán'])
+
+  const { params } = useRoute()
+  const { group } = params as RouteParams
 
   return (
     <Container>
       <Header showBackButton />
 
-      <Highlight title="Nova turma" subTitle="Adicione a galera e separe os times" />
+      <Highlight title={group} subTitle="Adicione a galera e separe os times" />
 
       <Form>
         <Input placeholder="Nome da pessoa" autoCorrect={false} />
