@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import { Alert } from 'react-native'
 import { useNavigation } from '@react-navigation/native'
-import { groupCreate } from '@storage/group/groupCreate'
 
 import { Button, Header, Highlight, Input } from '@components/index'
+
+import { groupCreate } from '@storage/group/groupCreate'
+
 import { AppError } from '@utils/AppError'
 
 import { Container, Content, Icon } from './styles'

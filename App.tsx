@@ -3,6 +3,7 @@ import { Roboto_400Regular, Roboto_700Bold, useFonts } from '@expo-google-fonts/
 import { ThemeProvider } from 'styled-components/native'
 
 import { Loading } from '@components/Loading'
+
 import { Routes } from '@routes/index'
 
 import theme from './src/theme'

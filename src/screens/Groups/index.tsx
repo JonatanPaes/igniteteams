@@ -1,9 +1,10 @@
 import { useCallback, useState } from 'react'
 import { FlatList } from 'react-native'
 import { useFocusEffect, useNavigation } from '@react-navigation/native'
-import { groupsGetAll } from '@storage/group/groupsGetAll'
 
 import { Button, GroupCard, Header, Highlight, ListEmpty } from '@components/index'
+
+import { groupsGetAll } from '@storage/group/groupsGetAll'
 
 import { Container } from './styles'
 
