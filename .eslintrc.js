@@ -9,7 +9,13 @@ module.exports = {
         groups: [
           ['^react', '^@?\\w'],
 
-          ['^@components', '^@screens', '^@utils', '^@hooks', '^@store', '^@routes'],
+          ['^@screens'],
+          ['^@components'],
+          ['^@hooks'],
+          ['^@store'],
+          ['^@storage'],
+          ['^@routes'],
+          ['^@utils'],
 
           ['^\\.+'],
 
