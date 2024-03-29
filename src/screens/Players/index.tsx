@@ -110,8 +110,8 @@ export function Players() {
 
       <FlatList
         data={players}
-        keyExtractor={(item) => item.name}
-        renderItem={({ item }) => <PlayerCard name={item.name} onRemove={() => {}} />}
+        keyExtractor={(item) => item?.name}
+        renderItem={({ item }) => <PlayerCard name={item?.name} onRemove={() => {}} />}
         ListEmptyComponent={() => <ListEmpty message="Não há pessoas nesse time." />}
         showsVerticalScrollIndicator={false}
         contentContainerStyle={[{ paddingBottom: 100 }, players.length === 0 && { flex: 1 }]}
