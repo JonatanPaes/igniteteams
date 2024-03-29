@@ -23,13 +23,13 @@ Node version 20.10.0
 Clone
 
 ```bash
-git clone 
+git clone https://github.com/JonatanPaes/igniteteams.git
 ```
 
 Para executar o projeto
 
 ```bash
-cd 
+cd igniteteams
 ```
 
 Instale as dependências do projeto
@@ -37,7 +37,6 @@ Instale as dependências do projeto
 ```bash
 npm install
 ```
-
 
 # Mobile
 Para executar o projeto
